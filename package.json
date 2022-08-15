@@ -1,0 +1,11 @@
+{
+  "name": "rescript-presentation",
+  "version": "1.0.0",
+  "description": "Code used in the presentation to introduce ReScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexander Varwijk <alexander@getopensocial.com>",
+  "license": "MIT"
+}
