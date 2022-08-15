@@ -1,0 +1,3 @@
+# Ignore ReScript build artefacts
+.merlin
+lib/
