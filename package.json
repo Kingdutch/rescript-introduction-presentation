@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "rescript build",
-    "watch": "rescript build -w"
+    "watch": "rescript build -w",
+    "vite": "vite"
   },
   "author": "Alexander Varwijk <alexander@getopensocial.com>",
   "license": "MIT",
@@ -14,5 +15,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "rescript": "^9.1.4"
+  },
+  "devDependencies": {
+    "vite": "^3.0.7"
   }
 }
