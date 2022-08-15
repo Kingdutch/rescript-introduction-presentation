@@ -4,7 +4,8 @@
   "description": "Code used in the presentation to introduce ReScript.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rescript build",
+    "watch": "rescript build -w"
   },
   "author": "Alexander Varwijk <alexander@getopensocial.com>",
   "license": "MIT",
