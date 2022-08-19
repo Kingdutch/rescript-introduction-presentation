@@ -13,10 +13,6 @@ function ReactExample$Button(Props) {
             }, children);
 }
 
-var Button = {
-  make: ReactExample$Button
-};
-
 Client.createRoot(document.body).render(React.createElement("div", undefined, React.createElement(ReactExample$Button, {
               children: "Continue"
             }), React.createElement(ReactExample$Button, {
@@ -25,7 +21,6 @@ Client.createRoot(document.body).render(React.createElement("div", undefined, Re
             })));
 
 export {
-  Button ,
   
 }
 /*  Not a pure module */
